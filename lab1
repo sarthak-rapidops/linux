@@ -1,0 +1,46 @@
+#1.
+pwd;ls -alh
+
+#2.
+#mkdir intern-2020 rapidops-2020
+
+#3.
+cd intern-2020
+touch dev.txt;touch helloworld.txt
+
+#4.
+cat > dev.txt
+echo "rapidops intern" | cat >helloworld.txt
+
+#5.
+cp intern-2020/dev.txt intern-2020/helloworld.txt rapidops-2020
+
+#6.
+mv dev.txt dev1.txt;mv helloworld.txt helloworld1.txt 
+
+#7.
+chmod u=r dev1.txt
+
+#8.
+tar -cf rapidops-2020.tar rapidops-2020;cd intern-2020
+
+#9.
+cp rapidops-2020.tar ./rapidops.tar;rm -r rapidops-2020.tar 
+
+#10.
+find -iname dev.txt
+
+#11.
+top
+
+#12.
+df -h:free
+
+#13.
+ps -a|ps -p 19615
+
+#14.
+wget https://releases.mattermost.com/desktop/4.3.2/mattermost-desktop-4.3.2-linux-i386.deb
+
+#15.
+ifconfig
